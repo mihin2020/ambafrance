@@ -1,0 +1,284 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    width: 1330px;
+    height: 2350px;
+    font-family: 'Marianne','latobold',Arial,Helvetica,sans-serif;
+}
+#grande_div
+{
+    width: 100%;
+    height: 210px;
+    border:solid  black 2px;
+}
+.sous_grande_div
+{
+    width: 100%;
+    height: 175px;
+    border: solid black 2px;
+    margin-top: 35px;
+    
+}
+.drapeau
+{
+    width: 180px;
+    height: 165px;
+    border:  black 2px;
+    margin-left:180px
+}
+.titre
+{
+    border:  black solid 2px;
+    width: 40%; 
+}
+.a_droite
+{
+    float: right;
+    margin-right: 180px;
+    position: relative;
+    bottom: 220px;
+    font-family: 'Marianne','latobold',Arial,Helvetica,sans-serif;
+    font-size: 0.8em;
+}
+.a_droite ul li a
+{
+    text-decoration: none;
+   
+}
+.a_droite ul li
+{
+    display: inline;
+    margin-left: 10px;
+}
+.word_spacing
+{
+    word-spacing: 5px;
+}
+.titre h3, h4
+{
+    font-size: 1.3em;
+    font-weight: 350px;
+    font-family: 'Marianne','latobold',Arial,Helvetica,sans-serif;
+    text-align: justify;
+    margin-left: 75px;
+}
+.titre
+{
+    margin-left: 360px;
+    position :relative;
+    top:-160px
+}
+.menu
+{
+    width: 100%;
+    border: solid black 2px;
+    height:70px;
+    position: relative;
+    top:0px;
+    
+}
+.menu ul li 
+{
+    display: inline;
+    margin-left:20px;
+    position: relative;
+    left: 240px;
+    top: 25px;
+    font-size: 1em;
+    
+}
+.menu ul li a
+{
+    text-decoration: none;
+    font-family: 'Marianne','latobold',Arial,Helvetica,sans-serif;
+}
+.saut
+{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#page
+{
+    width: 1330px;
+    height: 75%;
+    background-color: beige;
+}
+#info
+{
+    width: 55em;
+    height: 265px;
+    border: black solid 2px;
+    background-color: tan;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 30px;
+}
+#bloc1
+{
+    width: 55em;
+    height: 1250px;
+    border: black solid 2px;
+    background-color:firebrick;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.actualite
+{
+    width: 60%;
+    height: 58%;
+    border: black solid 2px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+}
+.bloc_colé
+{
+    width: 38%;
+    height: 58% ;
+    border: black solid 2px;
+    background-color: purple;
+    float: right;
+    display: inline-block;
+    display:flex;
+    flex-direction: column;
+  
+}
+.justify
+{
+    justify-content: space-around ;
+    margin: 7px 0px;
+}
+.facebook
+{
+    width:100%;
+    height: 50%;
+    border: black solid 2px;
+    background-color: gray;
+
+}
+.acces_rapide
+{
+    width: 100%;
+    height: 20%;
+    border: black solid 2px;
+    background-color: orange ;
+    float: right;
+    display: inline-block;
+}
+.nos_coord
+{
+    width: 100%;
+    height: 30%;
+    border: black solid 2px;
+    background-color: yellow;
+
+}
+.ac
+{
+    position: relative;
+    left: 350px;
+    bottom: 20px;
+}
+/* remplissage de notre contenu texte1 a droite*/
+.texte1
+{
+    font-size: small;
+    width: 60%;
+    float: right;
+    position: relative;
+    bottom: 130px;
+}
+.texte2 , .texte3 , .texte4 , .texte5
+{
+    font-size: small;
+    width: 60%;
+    float: right;
+    position: relative;
+    bottom: 130px;
+    right: 10px;
+}
+
+.ecartement /* espacement entre les 2 p( nos coordonnee et les contacts*/
+{
+margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ici commence la partie des slides */
+#slides {
+    position: relative;
+    height: 265px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 22em;
+    height: 265px;
+    opacity: 0;
+    z-index: 1;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.showing {
+    opacity: 1;
+    z-index: 2;
+}
+.slide {
+    font-size: 40px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #333;
+    color: #fff;
+}
+
+.slide:nth-of-type(1) {
+
+    background-image:url(/home/mihin/Bureau/ambassade/image/1er_screen.png);
+}
+.slide:nth-of-type(2) {
+    background-image: url(/home/mihin/Bureau/ambassade/image/2eme.png);
+}
+.slide:nth-of-type(3) {
+    background-image: url(/home/mihin/Bureau/ambassade/image/3e.png);
+}
+.slide:nth-of-type(4) {
+    background-image: url(/home/mihin/Bureau/ambassade/image/4eme.png);
+}
+.slide:nth-of-type(5) {
+    background-image: url(/home/mihin/Bureau/ambassade/image/5eme.png);
+}

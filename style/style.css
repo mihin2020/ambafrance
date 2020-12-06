@@ -1,0 +1,473 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    width: 100%;
+    height: 1690px;
+    font-family: 'Marianne','latobold',Arial,Helvetica,sans-serif;
+}
+#grande_div
+{
+    width: 100%;
+    height: 210px;
+   
+}
+.sous_grande_div
+{
+    width: 100%;
+    height: 175px;
+    border: black 2px;
+    margin-top: 35px;
+    
+}
+.drapeau
+{
+    width: 180px;
+    height: 165px;
+    border:  rgb(161, 159, 159) 2px;
+    margin-left:180px
+}
+.titre
+{
+    border:  black 2px;
+    width: 40%; 
+}
+.a_droite
+{
+    float: right;
+    margin-right: 180px;
+    position: relative;
+    bottom: 220px;
+    font-family: 'Marianne','latobold',Arial,Helvetica,sans-serif;
+    font-size: 0.8em;
+}
+.a_droite ul li a
+{
+    text-decoration: none;
+   
+}
+.a_droite ul li
+{
+    display: inline;
+    margin-left: 10px;
+}
+.word_spacing
+{
+    word-spacing: 5px;
+}
+.titre h3, h4
+{
+    font-size: 1.3em;
+    font-weight: 350px;
+    font-family: 'Marianne','latobold',Arial,Helvetica,sans-serif;
+    text-align: justify;
+    margin-left: 75px;
+
+}
+
+.titre
+{
+    margin-left: 360px;
+    position :relative;
+    top:-160px
+}
+.menu
+{
+    width: 100%;
+    border: solid black 2px;
+    height:70px;
+    position: relative;
+    top:0px;
+    
+}
+.menu ul li 
+{
+    display: inline;
+    margin-left:20px;
+    position: relative;
+    left: 240px;
+    top: 25px;
+    font-size: 1em;
+    
+}
+.menu ul li a
+{
+    text-decoration: none;
+    font-family: 'Marianne','latobold',Arial,Helvetica,sans-serif;
+    color: rgb(18, 92, 204);
+    font-weight: bold;
+}
+.saut
+{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#page
+{
+    width: 100%;
+    height: 1850px;
+    background-color: rgb(236, 243, 243);
+}
+#info
+{
+    width: 55em;
+    height: 265px;
+    border:rgb(161, 159, 159) 2px;2px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 30px;
+}
+#bloc1
+{
+    width: 55em;
+    height: 1500px;
+    border:rgb(161, 159, 159) 2px;  2px;
+    background-color:;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.actualite
+{
+    width: 60%;
+    height: 48%;
+    border:rgb(161, 159, 159) 2px; 2px;
+    background-color: rgb(255, 255, 255);
+    border-top: solid 5px rgb(204, 30, 30);
+    display: inline-block;
+}
+.bloc_colé
+{
+    width: 38%;
+    height: 58% ;
+    border: black  2px;
+    background-color:;
+    float: right;
+    display: inline-block;
+    display:flex;
+    flex-direction: column;
+  
+}
+.justify
+{
+    justify-content: space-around ;
+    margin: 7px 0px;
+}
+.facebook
+{
+    width:100%;
+    height: 60%;
+    border:rgb(217, 228, 224) solid 2px;
+    background-color:rgb(255, 255, 255);
+    border-top: solid 5px rgb(2, 62, 141)
+
+}
+.acces_rapide
+{
+    width: 100%;
+    height: 15%;
+    border:white solid 2px;
+    background-color: rgb(250, 248, 249) ;
+    float: right;
+    display: inline-block;
+}
+.nos_coord
+{
+    width: 100%;
+    height: 20%;
+    border:white solid 2pxS;
+    background-color:  rgb(250, 248, 249) ;
+
+}
+.depuce li a
+{
+ text-decoration: none; 
+ color: rgb(22, 72, 165); 
+ font-size: small; 
+}
+.ac
+{
+    position: relative;
+    left: 350px;
+    bottom: 20px;
+    color: rgb(22, 72, 165); 
+    font-weight: bold;
+}
+/* remplissage de notre contenu texte1 a droite*/
+.noir
+{
+    text-decoration: none;
+    color: rgb(61, 62, 65);
+    font-weight: bold;
+    
+}
+.texte1
+{
+    font-size: small;
+    width: 60%;
+    float: right;
+    position: relative;
+    bottom: 130px;
+}
+.texte2 , .texte3 , .texte4 , .texte5
+{
+    font-size: small;
+    width: 60%;
+    float: right;
+    position: relative;
+    bottom: 130px;
+    right: 10px;
+}
+
+
+.ecartement /* espacement entre les 2 p( nos coordonnee et les contacts*/
+{
+margin-bottom: 15px;
+padding-left: 10px;
+}
+.centré
+{
+    text-align: justify;
+    padding-left: 7px;
+} 
+.depuce
+{
+    list-style: none;
+}
+.depuce ul li a{
+    text-decoration: none;
+}
+
+/* bloc contenant les infos present sous le bloc actualité*/
+.sous_actualite
+{  
+width: 60%;
+height: 52%;
+border: black  2px;
+background-color: ;
+}
+.div1 
+{
+    width: 45%;
+    height: 15%;
+    border:white solid 2px;
+    background-color:white;
+    border-top: solid 5px rgb(22, 72, 165);
+    position: relative;
+    top: 10px;
+}
+.div2
+{
+    width: 45%;
+    height: 22%;
+    border:white solid 2px;
+    float: right;
+    position: relative;
+    bottom: 115px;
+    border-top: solid 5px rgb(22, 72, 165);
+    background-color: white;
+  }
+  .div3
+{
+    width: 45%;
+    height: 22%;
+    border:white solid 2px;
+    float: right;
+    position: relative;
+    bottom: 570px;
+    background-color: white;
+    border-top: solid 5px rgb(22, 72, 165);
+}
+  .decalé , .institut
+  {
+      margin-left: 10px;
+      margin-top: 0px;
+  }
+.reduction ul li{
+font-size: 0.7em;
+list-style: none;
+padding-left: 15px;
+}
+.reduction ul li a{
+    list-style: none;
+    text-decoration: none;
+
+}
+.diplomatique
+{
+    width: 45%;
+    height: 80%;
+    border:white solid 2px;
+    background-color: white ;
+    border-top: solid 5px rgb(180, 18, 18);
+}
+.ecar
+{
+margin-top: 25px;
+}
+.carte
+{
+    width: 25%;
+    height: 18%;
+    border:white solid 2px;
+    background-color:white;
+    position: relative;
+    left: 775px;
+    bottom: 600px;
+    border-top: solid 5px rgb(22, 72, 165);
+}
+.elargir
+{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 0.9em;
+    list-style: none;
+}
+.x-small
+{
+    font-size: small;
+}
+
+
+.a_propos
+{
+    position: relative;
+    left: 180px;
+    bottom: 85px;
+
+}
+
+.div_footer1
+{
+    width: 20%;
+    height: 270px;
+   
+    margin-left:220px
+}
+
+
+.div_footer_fin
+{
+   position: relative;
+   left: 830px; 
+   bottom: 360px;
+}
+
+{
+    line-height: 3.5em;  
+}
+footer{
+   
+    width: 100%;
+    height: 400px;
+    background-color: rgb(50, 49, 54) ;
+}
+.div_footer2
+{
+    position: relative;
+    left: 550px;
+    bottom: 270px;
+}
+.po 
+{
+    position: relative;
+    left: 1050px;
+    bottom: 410px;
+}
+.po ul li
+{
+    list-style: none;
+}
+.no
+{
+    list-style: none;
+}
+.couleur
+{
+text-decoration: none;
+color: white;
+list-style: none;
+}
+.blue
+{
+    color: rgb(22, 72, 165); 
+    font-weight: bold;
+}
+.no_soulign
+{
+    text-decoration: none;
+    color: rgb(22, 72, 165); 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ici commence la partie des slides */
+#slides {
+    position: relative;
+    height: 265px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 22em;
+    height: 265px;
+    opacity: 0;
+    z-index: 1;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.showing {
+    opacity: 1;
+    z-index: 2;
+}
+.slide {
+    font-size: 40px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #333;
+    color: #fff;
+}
+
+.slide:nth-of-type(1) {
+
+    background-image:url(/home/mihin/Bureau/ambassade/image/1er_screen.png);
+}
+.slide:nth-of-type(2) {
+    background-image: url(/home/mihin/Bureau/ambassade/image/2eme.png);
+}
+.slide:nth-of-type(3) {
+    background-image: url(/home/mihin/Bureau/ambassade/image/3e.png);
+}
+.slide:nth-of-type(4) {
+    background-image: url(/home/mihin/Bureau/ambassade/image/4eme.png);
+}
+.slide:nth-of-type(5) {
+    background-image: url(/home/mihin/Bureau/ambassade/image/5eme.png);
+}
