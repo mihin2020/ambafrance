@@ -1,0 +1,353 @@
+
+}
+.align
+{
+    display: inline;
+   margin-top: 25px;
+}
+.centre 
+{
+    margin-top: 25px;
+    font-size: 1.2em;
+}
+.bordure
+{
+    border-top: gray solid 1px;
+    border-bottom: gray solid 1px;
+}
+.formulaire
+{
+    margin-left: 60px;
+}
+.position ul li
+{
+    display: inline;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.bordure ul li 
+{
+    margin-top: 5px;
+}
+.position {
+    margin-top: 15px;
+} 
+.float
+{
+   margin-left: 800px;
+}
+
+.voir_aussi
+{
+    background-color: rgb(255, 255, 255);
+    height: 85px;
+}
+.acces
+{
+    background-color: rgb(247, 244, 244);
+    height: 200px;
+    margin-top: 15px;
+}
+.petit 
+{
+    font-size: small;
+}
+
+.milieu
+{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.petite
+{
+    font-size: x-small;
+  position: relative;
+  right: 30px;
+
+}
+.correction
+{
+    color: rgb(0, 63, 199);
+    font-weight: bolder; 
+    font-size:x-large;
+}
+/* corp*/
+
+
+
+.le_tout
+{
+    background-color: #ecf0f1;
+    height: 3250px;
+}
+
+.cooperation
+{
+    background-color: #ecf0f1;
+    height: 50px;
+}
+
+.indigo
+{
+    background-color: rgb(255, 255, 255);
+    height: 3250px;
+}
+.noir
+{
+    background-color: rgb(255, 255, 255);
+    height: 325px;
+    margin-left: 25px;
+}
+.haut
+{
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+    color: rgb(0, 63, 199);
+   font-weight: bolder; 
+
+}
+.exoneration
+{
+    background-color: #e0eefc;
+    height: 130px;
+    position: relative;
+    bottom: 25px;
+    left: 25px;
+}
+.exoneration ul li{
+    position: relative;
+    top: 25px;
+    right: 30px;
+}
+.presentation
+{
+    background-color: #e0eefc;
+    height: 85px;
+    position: relative;
+    bottom: 25px;
+   
+}
+.programation
+{
+    position: relative;
+    bottom: 30px;
+}
+.AFD , .entreprise , .economique
+{
+    position: relative;
+    bottom: 30px;
+    left: 25px;
+}
+.militaire
+{
+    background-color: #e0eefc;
+    height: 40px;
+    margin-left: 30px;
+    position: relative;
+    bottom: 25px;
+}
+.policiere
+{
+    background-color:#e0eefc;
+    height: 40px;
+    position: relative;
+    bottom: 25px;
+}
+.comemoration{
+    position: relative;
+    left:45px;
+    bottom: 15px;
+}
+.etablissement
+{
+    position: relative;
+    bottom: 30px;
+    left: 25px;
+}
+.decalage
+{
+    float: right;
+}
+
+
+
+
+/* enleve les pont et mettre les petit carre*/
+
+.pas_de_point
+{
+    list-style: none;
+}
+.pas_de_pointz
+{
+    list-style: none;
+    display: inline;
+   position: relative;
+   top: 15px;
+}
+.pas_de_pointe
+{
+    list-style: square;
+    color: rgb(0, 166, 255);
+    margin: 15px;
+    font-size: small;
+}
+.pas_de_point
+{
+    font-size: small;
+}
+.pas_de_pointa
+{
+    font-size: small;
+    color: rgb(68, 161, 211);
+    list-style: none;
+}
+.pas_de_pointa a
+{
+    font-size: small;
+    color: rgb(68, 161, 211);
+}
+.pas_de_point a{
+    color: rgb(114, 110, 110);
+}
+
+/* coloration de voir aussi*/
+
+.voir_aussi h5 
+{
+    color: rgb(0, 63, 199);
+   font-weight: bolder; 
+}
+.acces  h5
+{
+    color: rgb(0, 63, 199);
+   font-weight: bolder; 
+}
+}
+
+
+
+
+
+
+
+/* bas de page*/
+.red
+{
+    background-color:#323136;
+    height: 225px;
+}
+.green
+{
+    background-color:#ecf0f1;
+    height: 2100px;
+}
+.rouge
+{
+    height: 225px;
+    background-color:#323136;
+}
+.bloc1
+{
+    background-color: #323136;
+    height: 225px;
+}
+.reduction
+{
+    font-size: 17px;
+    font-weight: bolder;
+    color: white;
+    
+}
+.no_point{
+   list-style: none;
+   position: relative;
+   right: 55px;
+   color: white;
+}
+.no_point a
+{
+    color: white;
+}
+.elargir
+{
+    position: relative;
+    left: 175px;
+    bottom: 90px;
+}
+.elar
+{
+    position: relative;
+    left: 175px;
+    bottom: 85px;
+}
+.recadrage
+{
+    position: relative;
+    top: 25px;
+}
+.droit
+{
+    position: relative;
+    left: 250px;
+    bottom: 60px;
+}
+.bloc2
+{
+    background-color:#323136;;
+    height: 225px;
+}
+.bloc3
+{
+    background-color:#323136;;
+    height: 225px;
+}
+.ligne
+{
+    border-top: 3px solid rgb(255, 255, 255);
+}
+.police{
+    font-size: small;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }

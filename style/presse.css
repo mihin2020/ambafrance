@@ -6,7 +6,7 @@
 body
 {
     width: 100%;
-    height: 1100px;
+    height: 1200px;
     font-family: 'Marianne','latobold',Arial,Helvetica,sans-serif;
 }
 #grande_div
@@ -135,10 +135,12 @@ span
     margin-left: 15px;
 }
 /* fond*/
+
+
 .fond
 {
     width: 100%;
-    height: 540px;
+    height: 700px;
     background-color: #ecf0f1;
     padding-top: 45px;
 }
@@ -232,13 +234,28 @@ hr
 {
     list-style: none;
 }
-
-
 .acceuil
 {
     width: 70%;
-    height: 550px;
-    background-color:;
+    height: 695px;
+   
+    margin: auto;
+    padding: auto;;
+}
+.puce
+{
+    list-style: none;
+}
+}
+.reduction   ul
+{
+    list-style: none;
+}
+.acceuil
+{
+    width: 70%;
+    height: 695px;
+    
     margin: auto;
     padding: auto;
     display: flex;
@@ -247,7 +264,7 @@ hr
 .ambassade
 {
     width: 60%;
-    height:530px ;
+    height:700px ;
     background-color: white;
     border-top: rgb(18, 92, 204) solid 5px;
 }
@@ -274,6 +291,7 @@ hr
     margin-top: 20px;
     border: 3px solid white;
 }
+
 
 /*fin*/
 #fin
